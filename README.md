@@ -12,7 +12,7 @@ facilities to be opened) are given. For Euclidean, here's an example
 (note that the number of dimensions of all Cartesian coordinates of
 all points should be specified):
 
-`
+```
 type=euclidean
 n=10
 m=14
@@ -30,13 +30,13 @@ Milwaukee		{43.33, 87.9000},
 Minnesota_St_Paul		{44.933, 93.833},
 [...]
 New_York_Albany		{42.666, 73.8166}}
-`
+```
 
 Table instances instead refer to those where coordinates are not
 given, but rather a table with all distances between cities and
 potential facilities.
 
-`
+```
 type = TABLE
 m = 8
 n = 12
@@ -56,4 +56,4 @@ table = {{10,33,28,29,32,49,54,64},
          {41,24,28,18,30, 9,24,17},
          {51,28,42,29,20,24, 9,17},
          {54,37,41,31,31,22,20, 6}}
-`
+```
